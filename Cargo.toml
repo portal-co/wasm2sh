@@ -5,6 +5,7 @@ resolver="3"
 [workspace.package]
 description = "WASM to Busybox commands or any other shell"
 license = "MPL-2.0"
+repository = "https://github.com/portal-co/wasm2sh.git"
 
 [workspace.dependencies]
 wasmparser = { version = "0.240.0", default-features = false }
