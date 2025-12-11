@@ -1,0 +1,11 @@
+[workspace]
+members=[]
+resolver="3"
+
+[workspace.package]
+description = "WASM to Busybox commands or any other shell"
+license = "MPL-2.0"
+
+[workspace.dependencies]
+wasmparser = { version = "0.240.0", default-features = false }
+wasm-encoder = { version = "0.240.0", default-features = false,features = ["wasmparser"] }
