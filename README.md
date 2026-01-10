@@ -1,13 +1,14 @@
 # wasm2sh
 
 ## Description
-Project wasm2sh
+"WASM to Busybox commands or any other shell". Compiles WebAssembly to shell scripts.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Convert WASM logic to shell script
+- [ ] Run WASM in shell environments
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup
 
 ---
 *AI assisted*
